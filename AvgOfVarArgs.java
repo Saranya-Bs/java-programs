@@ -1,5 +1,6 @@
 public class AvgOfVarArgs {
     public static void main(String[] args) {
+        
         System.out.println( Avg(1,2,3,4,5));
 
     }
