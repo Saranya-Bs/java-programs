@@ -16,5 +16,7 @@ public class ArrayInterchange {
         for(int n:arr){
             System.out.print(n+" ");
         }
+
+        sc.close();
     }
 }

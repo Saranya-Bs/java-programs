@@ -10,6 +10,8 @@ public class Perfect_Number {
         else{
             System.out.println(n+" is not a Perfect Number ");
         }
+
+        sc.close();
     }
     public static boolean isPerfect(int n){
         int sum=1;

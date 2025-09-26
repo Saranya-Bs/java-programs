@@ -5,5 +5,7 @@ public class Reverse_number {
         System.out.println("Enter the number");
         int n=sc.nextInt();
         System.out.println("Number in reverse is: "+Palindrome_numbers.Palindrome(n));
+
+        sc.close();
     }
 }

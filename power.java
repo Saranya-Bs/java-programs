@@ -6,5 +6,7 @@ public class power {
         double a=sc.nextDouble();
         double m=sc.nextDouble();
         System.out.println(Math.pow(a, m));
+
+        sc.close();
     }
 }
