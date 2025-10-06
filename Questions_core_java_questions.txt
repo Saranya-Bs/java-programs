@@ -1,0 +1,78 @@
+Basics
+1. Write a program to print numbers from 10 to 1.
+2. Write a program to print all even numbers between 1 to 50.
+3. Write a program to print a table for number 15 with length 10.(use printf)
+4. Write a program to accept the day of a week and the number of hours worked and calculate the wage.
+Conditions:
+     1,2,3 —>  Rs200/ hour
+        4,5  —> Rs400 / hour
+           6  —> Rs600 / hour
+           7  —> Rs800 / hour
+        1 to 7 is Monday to Friday.
+   If the total amount exceeds Rs2000 then there will be a bonus of 10%.  (Use Switch Expression)
+5. Write a program to accept five numbers from the user and display the average of numbers.
+6. Write a program to accept the number and display the largest factor other than the number.
+7. Write a program to accept the number and display the number in reverse order.
+8. Write a program to create an array of 5 elements and store values into it by taking them from the keyboard and display them in reverse order.
+9. Write a program to create a function that takes a set of integers and returns the largest of integers.
+10. Write a program to create a function that takes multiple numbers and displays common factors.
+11. Write a program to consider command line arguments num, length as inputs (where length is optional) if you won't get that use default number as length.
+
+OOP part-1
+
+12. Create a class(Product) to store details of a product and provide required methods with the details prod_id, prod_name, price,quantity_on_hand
+Methods are:  init(prod_id,prod_name, price)
+                 getNetPrice() (returns the price after adding 12% tax)
+                 purchase()
+                sell()
+13. Introduce multiple constructors in Product class.
+14. Create a class called Counter that stores a number and provides methods to increment, decrement and return the count. Provide the constructor without parameters that sets the values to zero and another constructor with parameters takes the values and starts from there.
+15. Create a class Student that stores the details like admin_no, stu_name, course_joined and fees_paid.
+—> Courses are: JAVA, PYTHON.
+—> The total fees for java is 10k and for python is 7.5k.
+—> Provide a constructor to take required details.The default course is JAVA.
+—> Provide the following methods: getTotalFee(), getDue(), getFeePaid(), payment(amount).
+16. Create a subclass called FactoryEmployee, for all factory employees we need to store bus_no, emp_boards.Create a super class related to this subclass.
+17. Create classes to store details for two different types of Products,
+   a) ImportedProducts which have import duty.
+   b) DiscountedProducts which have a discount rate.
+All products have name and base_price.Create required Constructors and following methods: print(), getNetPrice(), setPrice(), setImportDuty(), setDiscountRate() also experiment with upcasting and downcasting.
+
+Libraries part-1
+
+18. Write a program to guess the random number in three attempts. The range is (1 to 25).
+19. Write a program to create an array of 10 elements, fill it with random no's and display array elements which are greater than average of array.
+20. Write a program to accept a string from the user and display it vertically. use nextLine() to read a string from the user.
+21. Write a program to accept a string that contains marks separated by commas and display total.
+22. Write a program to accept a string and display the position of space for all spaces.
+23. Write a program to take a String and invert the case of characters.
+24. Go to the previous classes and override equals(), toString(), hashCode().
+25. Write a program to accept names until the END is given and display all the names separated by '-'.
+26. Write a program to accept starting_date and ending_date in DD-MM-YYYY format and display no of days between those two dates.
+
+OOP part-2
+27. Write a program to create an interface called account operation with methods deposit(), getBalance().Implement this interface in Account class.
+28. Design classes that need to sort a collection of Product objects either by product name or by price.
+29. Accept five strings which contain numbers and display the total for those numbers. Make your program fault tolerant.
+30. Go back to all classes and handle exceptions.
+31. Create an insufficientBalanceException Class with the message "Insufficient Balance X for withdrawal of Y".
+
+Libraries part-2
+
+32. Write a program to accept some numbers from the user until 'O' and display the sum of +ve numbers.
+33. Write a program to accept names from users until 'END' is given and write them into names.txt as one name for the line.
+34. Write a program to accept a filename from the user and display how many uppercase, lowercase and digits the file has.
+35. Write a program to display lines that contains more than 5 characters.
+36. File Marks.txt, which have marks separated by comma in different lines.Find the total marks of each line and display them.(Use fault tolerance)
+37. Write 20 marks into Marks.data.
+38. Write a program to accept a file and convert its contents to uppercase.(write in compact way)
+39. Write a program to take names from names.txt & display unique names in sorted order.
+40. Write a program to assume names1.txt & names2.txt where we have one name for line & display unique names from both the files in the order they appear.
+41. Create a class called Circle with x & y radius, Now create Hashset & insert circle objects with some duplicates, and also use treeset for the same for circle objects and see what happens.
+42. Create a treeset of strings and sort them by length (use Comparator)
+43. Write a program to accept pan no and check whether it is valid or not.
+44. Write a program to accept a string & display each word on a separate line (use any separator)
+45. Write a program to accept a file and replace one (or) more spaces with a single space.
+46. Write  a program to accept strings until 'end' is given and sort them and write them into Codes.txt and the string must be one/more alphabets followed by one/more digits.(use Regular Expressions)
+47. Write a program to display the file which contains the given string in a path.
+48. Assume a txt file customers.txt which contains name & mobile no and you need to display in sorted order of name.(Use regular expression)
