@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+
+
 public class Q36 {
     public static void main(String[] args) {
         String line;
@@ -24,5 +26,7 @@ public class Q36 {
         }
 
         System.out.println("Total is: "+ans);
+
+        
     }
 }

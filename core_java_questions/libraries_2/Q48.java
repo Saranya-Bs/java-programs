@@ -20,6 +20,7 @@ public class Q48 {
                 String[] val=s.split("\\s*-\\s*");
 
                 map.put(val[0],val[1]);
+                
             }
         }
 
